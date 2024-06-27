@@ -1,0 +1,31 @@
+.sidebar-container {
+    background-color: rgb(120, 30, 30);
+    width: 220px;
+    min-width: 200px;
+    padding-top: 16px;
+}
+
+
+.sidebar-container li {
+    padding: 8px;
+    margin: 8px 8px;
+    border-radius: 2px;
+}
+
+
+.sidebar-container a { 
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+
+.sidebar-container ul { 
+    list-style: none;
+    font-size: 11pt; 
+}
+
+
+.sidebar-container li:hover {
+    background-color: #e2bfbf;
+    color: rgb(115, 5, 5);
+}

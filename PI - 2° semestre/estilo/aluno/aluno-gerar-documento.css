@@ -1,0 +1,65 @@
+.container-content h2 {
+    text-align: left;
+    color: rgb(150 20 20);
+}
+
+
+.content, .botao, .modal {
+    margin: 16px 8px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.instrucoes {
+    text-align: left;
+}
+
+
+.instrucoes li {
+    font-size: 11pt;
+    padding: 4px 8px;
+}
+
+
+.instrucoes img {
+    max-height: 300px;
+}
+
+
+button {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.modal label {
+    margin-right: 8px;
+    font-size: 12pt;
+}
+
+
+.modal select {
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.modal button, .modal select {
+    margin-right: 8px;
+}

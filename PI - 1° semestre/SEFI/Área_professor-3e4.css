@@ -1,0 +1,345 @@
+* {margin:0;
+padding:0;
+font-family: Verdana;}
+nav img:nth-child(1){
+    width: 80px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+  body{height: 100vh;
+width: 100vw;
+overflow: hidden;}
+nav {
+    display: flex;
+    width: 100vw;
+    height: 3em;
+    background-color: #2E3E46;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -2%;
+    border-bottom: 2px solid black;
+    margin:0;
+  }
+  .corpoprofessorhome {margin:0;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 18% 82%;
+    grid-template-rows:40% 10% 50%;
+    grid-template-areas:'tabela area' 'tabela documento' 'tabela comentario';
+  }
+/* --v------------------------v---------------Tudo relacionado a sidebar alunos -----------------------v--------------------------v--------------*/
+.tabela {
+    background-color: #2E3E46;
+    grid-area: tabela;
+    height: 93.8%;
+    width: 100%;
+  
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  
+  .alunos {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .alunotag {
+    padding: 4px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid black
+  }
+  
+  .alunocontainer {
+    display: flex;
+    color: white;
+    background-color: #2E3E46;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+  }
+  
+  .alunocontainer:hover .cabeca {
+    background-color: #2E3E46;
+  }
+  
+  .alunocontainer:hover .bola {
+    background-color: #2E3E46;
+  }
+  
+  .escrita {
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -30px;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    align-self: center;
+  }
+  
+  .alunocontainer .escrita:hover {
+    color: #2E3E46;
+  }
+  
+  .boneco {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 3px;
+  }
+  
+  .cabeca {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 4px;
+  }
+  
+  .bola {
+    width: 40px;
+    height: 20px;
+    border-radius: 150px 150px 0px 0px;
+    background-color: white;
+  }
+  
+  .alunocontainer:hover {
+    color: #2E3E46;
+    background-color: white;
+  }
+  
+  /* ----------------------------------------------------------------------------------------------------------------------*/
+  /* -----------v------------v---------------tudo referente a doc_relatorio---------------------v-------------------v------------------*/
+.docrelatorio{grid-area:documento;
+width: 100%;
+height: 100%;
+display: flex;
+padding-left: 50px;
+justify-content: flex-start;
+align-items: center;}
+.docrelatorio button/*::-webkit-file-upload-button*/{background-color: #2E3E46;
+  height: 30px;
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 17px; 
+  cursor: pointer;
+}
+.docrelatorio p{font-size: 20px;
+margin-left: 10px;
+}
+.docrelatorio form{display: flex;
+align-items: center;}
+
+.docrelatorio .botao{background-color: #2E3E46;
+width: 100px;
+height: 25px;
+border-radius: 2px;
+font-weight: bold;
+font-size: 17px;
+color: white;
+margin-left: 25px;
+}
+    /* ----------------------------------------------------------------------------------------------------------------------*/
+/* -----------v------------v---------------tudo referente a area do prof---------------------v-------------------v------------------*/
+.areaprof {
+    display: flex;
+    grid-area: area;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .infprof input[type=file]{
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+  }
+  .sefi {align-self: center;
+    justify-content: center;
+    color: #2E3E46;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 10px;
+    font-size: 50px;
+  
+  }
+  
+  .areaprofessor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .foto {
+    width: 13%;
+    height: 70%;
+    background-image: url(img/Foto.png);
+    margin-left: 50px;
+    margin-top: 13px;
+  }
+
+  
+  .inf {display: flex;
+    width: 88%;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+  }
+  
+  .rm {
+    width: 100%;
+    font-size: 30px;
+    
+  }
+  .curso{
+    width: 100%;
+    font-size: 30px;
+    
+  }
+  .nome {
+    width: 100%;
+    font-size: 30px;
+    
+  }
+  
+  .documentos {
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    margin-top: 50px;
+  }
+  
+  .documentos label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 24px;
+    
+  }
+  
+  .documentos input[type=button] {
+    background-color: #2E3E46;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+  .infprof {
+    width: 80%;
+    height: 100%;
+    display: flex;
+  }
+  /* ----------------------------------------------------------------------------------------------------------------------*/
+  
+  /* -----------v------------v---------------tudo referente a comentarios---------------------v-------------------v------------------*/
+  .comentario {
+    grid-area: comentario;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+  .comentario textarea{height: 170px;
+    width: 500px;
+margin-left: 50px;
+font-size: 20px;
+}
+.comentario textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 20px;
+  }
+.comentario label{margin-left: 50px;
+font-size: 25px;}
+  .o1{color: #2E3E46;
+  text-align: left;
+  width: 100%;
+  height: fit-content;
+  font-size: 40px;
+  margin-left: 30px;}
+  .campocorrencia
+  {margin:0;
+    width: 90%;
+  height: 70%;
+  background-color: #D9D9D9;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  overflow-y: scroll;
+  padding-left: 30px;
+  margin-bottom: 40px;
+  }
+  .campocorrencia::-webkit-scrollbar{
+    scroll-behavior: smooth;
+  }
+  .campfit{width: fit-content;}
+  .campocorrencia a{text-decoration: none;
+  height: fit-content;}
+  .campocorrencia p{color:black;
+  height: fit-content;}
+  /* ------------------------------------ Fim ocorrencias----------------------------------------------------------*/
+   /* -----------v------------v---------------tudo referente professor(4)---------------------v-------------------v------------------*/
+
+  .alunospend { width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  flex-wrap: wrap;
+  overflow-y:scroll ;
+  
+}
+.alunospend h1{align-self: center;
+  justify-content: center;
+  color: #2E3E46;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  font-size: 40px;}
+.boxaluno{
+width: 90%;
+height: 75px;
+margin:15px 0px 15px 0px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+font-size: 30px;
+margin-left: -20px;}
+
+.alunospend::-webkit-scrollbar{
+  scroll-behavior: smooth;
+}
+.alunospend a{text-decoration: none;
+color: black;
+display: flex;
+width: 90%;
+height: 75px;
+border: 2px solid black;
+justify-content: center;
+align-items: center;
+margin:15px 0px 15px 0px;
+}
+
+    /* ----------------------------------------------------------------------------------------------------------------------*/
+  
+ 

@@ -1,0 +1,48 @@
+.item-container {
+    background-color: rgb(250, 174, 180);
+    margin: 8px;
+}
+
+.item {
+    display: flex;
+    padding: 4px;
+}
+
+
+.solicitacao-passos {
+    margin: 16px ;
+}
+
+
+.solicitacao-passos li {
+    font-size: 14pt;
+}
+
+
+select {
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+#enviar {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.assinatura {
+    margin: 16px 0;
+}
+

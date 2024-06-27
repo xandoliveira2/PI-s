@@ -1,0 +1,58 @@
+#formulario,
+.seletor {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+
+#formulario input {
+    margin-bottom: 8px;
+    width: 400px;
+    
+}
+
+
+#formulario label,
+.seletor label {
+    margin-bottom: 4px;
+    display: flex;
+}
+
+
+ .seletor input {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+ }
+ 
+
+ 
+ .seletor select {
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+#formulario .gerar-relatorio {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+/* // Estilos usados por todas ou a maioria das páginas  // */
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto';
+    background-color: rgb(241, 230, 230);
+    overflow: hidden;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+main h1 {
+    color: rgb(150 20 20);
+    font-size: 20pt;
+    margin: 16px 0;
+}
+
+
+.container-content {
+    overflow: scroll;
+    width: 98%;
+}
+
+
+.container-content h1 {
+    margin: 20px 0 20px 0;
+}
+
+
+.conteiner-content h3 {
+    margin: 20px 0 20px 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;   
+    color: rgb(150 20 20);
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+#btn-puxar-dados {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}

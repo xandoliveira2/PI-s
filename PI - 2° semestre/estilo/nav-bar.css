@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 68px;
+    width: 100vw;
+    background-color: black;
+}
+
+
+.opt a, .opt li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.logo {
+    display: flex;
+    margin-left: 16px;
+    padding: 8px 0;
+}
+
+
+.logo h1 {
+    color: rgb(210, 55, 55);
+    font-size: 32pt;
+    font-weight: 400;
+}
+
+
+.logo h2 {
+    color: rgb(240, 240, 240);
+    font-size: 11pt;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+
+.perfil {
+    font-size: 13pt;
+    margin: 0 16px 0 auto;
+}
+
+
+.perfil ul {
+    display: flex;
+}
+
+
+.perfil li {
+    margin-right: 8px;
+}
+
+
+.perfil a {
+    color: rgb(252, 83, 83);
+    padding: 8px;
+}
+
+
+.perfil a:hover {
+    color: rgb(253, 231, 231);    
+}

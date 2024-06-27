@@ -1,0 +1,104 @@
+.documento {
+    background-color: rgb(214, 182, 182);
+    margin: 16px 0;
+    padding: 8px;
+}
+
+.doc p {
+    margin-right: 12px;
+}
+
+.doc {
+    display: flex; 
+}
+
+
+.infos {
+    margin-left: 8px;
+    margin-bottom:16px;
+}
+
+
+.avaliar {
+    display: flex;
+}
+
+
+.avaliar div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 4px;
+}
+
+
+.avaliar label {
+    padding: 0 8px;
+}
+
+
+#btn-avaliar {
+    margin-left: 8px ;
+}
+
+
+
+select {
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+button, input {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+table, th, td {
+    border: 1px solid rgb(212, 153, 153);
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 16px;
+}
+
+
+th {
+    padding: 4px 8px;
+}
+
+
+td {
+    font-size: 14pt;
+    padding: 0 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(236, 210, 210);
+}
+
+
+table button, 
+table input {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    padding: 4px 8px;
+    max-width: fit-content;
+    cursor: pointer;
+}

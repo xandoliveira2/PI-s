@@ -1,0 +1,45 @@
+#formulario,
+.seletor form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+
+#formulario input,
+.seletor input {
+    margin-bottom: 8px;
+    max-width: 400px;
+}
+
+
+#formulario select,
+.seletor select {
+    max-width: fit-content;
+    margin-bottom: 8px;
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+#formulario label,
+.seletor label {
+    margin-bottom: 4px;
+}
+
+
+.gerar-relatorio {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}

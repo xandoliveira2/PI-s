@@ -1,0 +1,408 @@
+* {margin:0;
+    padding:0;
+    font-family: Verdana;}
+    nav img:nth-child(1){
+        width: 80px;
+        height: 40px;
+        padding-left: 20px;
+        padding-top: 3px;
+      }
+      body{height: 100vh;
+    width: 100vw;
+    overflow: hidden;}
+    nav {
+        display: flex;
+        width: 100vw;
+        height: 3em;
+        background-color: #2E3E46;
+        box-sizing: border-box;
+        position: relative;
+        margin-top: -2%;
+        border-bottom: 2px solid black;
+        margin:0;
+      }
+h1{color: #2E3E46;
+text-align: center;
+margin-top: 50px;}
+input[type=file]{margin-top:200px;
+background-color: #2E3E46;
+color: white;
+width: 150px;
+height: 35px;
+margin-left: 130px;
+}
+
+input[type=file]::-webkit-file-upload-button{width: 150px;
+height: 35px;
+cursor: pointer;
+background-color: #2E3E46;
+color: white;
+font-weight: bold;
+font-size: 17px;
+}
+p{display: inline;
+font-size: 20px;
+margin-left: 30px;}
+.alinharbotoes{
+display: flex;
+flex-direction: row;
+width: 100vw;
+height: 10px;
+margin-top: 18%;
+justify-content: space-around;
+}
+button{
+background-color: #2E3E46;
+width: 200px;
+height: 30px;
+display: flex;
+cursor: pointer;
+padding-left: 30px;
+padding-top: -6px;
+}
+button p{font-weight: bold;
+  font-size: 24px;
+color: white;
+align-self: center;
+}
+/* ---v-----v------v-----Aluno_relatorio-------v----------v------v-*/
+h2{font-size: 30px;
+color: black;
+display: inline;}
+p a{color: blue;
+}
+.flex {display: flex;
+flex-direction: column;
+height: 200px;
+justify-content: space-evenly;
+margin-top: 50px;
+margin-left: 90px;}
+.inline{display: inline;}
+.pagrelatorio .alinharbotoes{margin-top: 100px;}
+.pagrelatorio input[type=file]{margin-top:100px;
+  background-color: #2E3E46;
+  color: white;
+  width: 150px;
+  height: 35px;
+  margin-left: 90px;
+  }
+  
+  .pagrelatorio input[type=file]::-webkit-file-upload-button{width: 150px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #2E3E46;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  }
+/*-----------------------------------------------------------------*/
+/* ---v-----v------v-----Aluno_Sol-Estágio-------v----------v------v-*/
+form{display: flex;
+flex-direction: column;
+height: 30%;
+margin-left: 50px;
+font-size: 23px;}
+select:nth-child(4){width: fit-content;
+box-shadow: 0px 10px 10px -6px gray;
+}
+form label{width: fit-content;}
+select:nth-child(2){width: fit-content;
+  box-shadow: 0px 10px 10px -6px gray;}
+form label{margin-bottom: 5px;
+}
+form label:nth-child(1){margin-top: 55px;}
+form select{margin-bottom: 20px;
+font-size: 20px;}
+.docdown{width: fit-content;
+height: 30px;
+margin-left: 50px;
+}
+
+.docdown p{font-size:14px;
+  margin: 0;
+}
+.alinhar1{display: flex;
+flex-direction: column;}
+.alinhar1 input[type=file]{margin-top:100px;
+  background-color: #2E3E46;
+  color: white;
+  width: 150px;
+  height: 28px;
+  margin-left: 90px;
+  }
+.alinhar1 input[type=file]::-webkit-file-upload-button{width: 150px;
+  height: 28px;
+  cursor: pointer;
+  background-color: #2E3E46;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  }
+.alinhar1 input:nth-child(1){margin:0px 0px 20px 50px;}
+.alinhar1 input:nth-child(2){margin:0px 0px 0px 50px;}
+.alinhar2 .alinharbotoes{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 10px;
+  margin-top: 12%;
+  justify-content: center;
+  }
+/*-----------------------------------------------------------------*/
+
+
+/* -------------------Aluno_andamento grid------------------------*/
+.gridalunoandamento{display: grid;
+  height: calc(100vh - 3em);
+  width: 100vw;
+grid-template-rows: 10% 30% 48% 12%;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: 'status status''inf infcurso''doc ocorrencia''botao botao';}
+
+.statusAA{grid-area: status;
+width: 100%;
+height: 100%;
+}
+.infAA{grid-area: inf;
+  width: 100%;
+  height: 100%;
+}
+.infcursoAA{grid-area: infcurso;
+  width: 100%;
+  height: 100%;
+}
+.docAA{grid-area: doc;
+  width: 100%;
+  height: 100%;
+}
+.ocorrenciaAA{grid-area: ocorrencia;
+  width: 100%;
+  height: 100%;
+}
+.botoesAA{grid-area: botao;
+  width: 100%;
+  height: 100%;}
+/* ---v-----v------v-----Aluno_andamento(1)-------v----------v------v-*/
+.gridalunoandamento .statusAA{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+}
+.gridalunoandamento .statusAA h1{
+  margin-top: 10px;
+  color: #2E3E46;
+margin-left: calc(50% - 200px);
+}
+.gridalunoandamento .statusAA button{
+  background-color: #2E3E46;
+  width: 200px;
+  height: 30px;
+  margin-left: 400px;
+  cursor: pointer;}
+  .gridalunoandamento .statusAA button p{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+font-size: 15px;
+margin:0}
+/*---------------------------------------------------------*/
+.gridalunoandamento .infAA{display: flex;
+flex-direction: column;
+padding-left: 50px;}
+.gridalunoandamento .infAA p{margin: 5px 0px 5px 0px;
+font-size: 25px;}
+.gridalunoandamento .infAA .inline{margin: 5px 0px 5px 0px;}
+.gridalunoandamento .infAA .inline p:nth-child(1){font-weight: bold;}
+.gridalunoandamento .infAA .inline p:nth-child(2){font-weight: normal;}
+/*---------------------------------------------------------*/
+.gridalunoandamento .infcursoAA{display: flex;
+flex-direction: column;
+margin: 0;
+padding: 0;}
+
+.gridalunoandamento .infcursoAA p{font-size: 25px;
+margin: 5px 0px 5px 0px;}
+.gridalunoandamento .infcursoAA p:nth-child(4){font-weight: bold;
+margin-top: 20px;}
+/*-----------------------------------------------------------------*/
+.gridalunoandamento .docAA{display: flex;
+  flex-direction: column;}
+  .gridalunoandamento .docAA p:nth-child(1){font-weight: bold;
+  text-align: center;
+font-size: 25px;}
+.gridalunoandamento .docAA .alinhar1{margin-top: 40px;}
+/*-----------------------------------------------------------------*/
+.gridalunoandamento .ocorrenciaAA{display: flex;
+  flex-direction: column;
+}
+.gridalunoandamento .ocorrenciaAA .ocorrencia {margin: 0;
+  padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .campocorrencia
+  {margin:0;
+    width: 95%;
+  height: 40%;
+  background-color: #D9D9D9;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  overflow-y: scroll;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  }
+  .campocorrencia::-webkit-scrollbar{
+    scroll-behavior: smooth;
+  }
+  .campfit{width: fit-content;}
+  .campocorrencia a{text-decoration: none;
+  height: fit-content;}
+  .campocorrencia p{color:black;
+  height: fit-content;
+font-size: 14px;}
+.gridalunoandamento .ocorrenciaAA p{margin:0;
+margin-top: 133px;}
+/*-----------------------------------------------------------------*/
+.gridalunoandamento .botoesAA .alinharbotoes{margin:0;
+margin-top: 20px;}
+/* ---v-----v------v-----Aluno_andamento(2)-------v----------v------v-*/
+
+.gridalunoandamento2{display: grid;
+  height: calc(100vh - 3em);
+  width: 100vw;
+grid-template-rows: 10% 30% 48% 12%;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: 'status status''inf infcurso''doc ocorrencia''botao botao';}
+
+
+.statusAA{grid-area: status;
+  width: 100%;
+  height: 100%;
+  }
+  .infAA{grid-area: inf;
+    width: 100%;
+    height: 100%;
+  }
+  .infcursoAA{grid-area: infcurso;
+    width: 100%;
+    height: 100%;
+  }
+  .docAA{grid-area: doc;
+    width: 100%;
+    height: 100%;
+  }
+  .ocorrenciaAA{grid-area: ocorrencia;
+    width: 100%;
+    height: 100%;
+  }
+  .botoesAA{grid-area: botao;
+    width: 100%;
+    height: 100%;}
+
+  .gridalunoandamento2 .statusAA{display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  }
+  .gridalunoandamento2 .statusAA h1{
+    margin-top: 10px;
+    color: #2E3E46;
+  margin-left: calc(50% - 200px);
+  }
+  .gridalunoandamento2 .statusAA button{
+    background-color: #2E3E46;
+    width: 200px;
+    height: 30px;
+    margin-left: 400px;
+    cursor: pointer;}
+    .gridalunoandamento2 .statusAA button p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  font-size: 15px;
+  margin:0}
+  /*---------------------------------------------------------*/
+  .gridalunoandamento2 .infAA{display: flex;
+  flex-direction: column;
+  padding-left: 50px;}
+  .gridalunoandamento2 .infAA p{margin: 5px 0px 5px 0px;
+  font-size: 25px;}
+  .gridalunoandamento2 .infAA .inline{margin: 5px 0px 5px 0px;}
+  .gridalunoandamento2 .infAA .inline p:nth-child(1){font-weight: bold;}
+  .gridalunoandamento2 .infAA .inline p:nth-child(2){font-weight: normal;}
+  /*---------------------------------------------------------*/
+  .gridalunoandamento2 .infcursoAA{display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;}
+  .gridalunoandamento2 .infcursoAA p{font-size: 25px;
+  margin: 5px 0px 5px 0px;}
+  .gridalunoandamento2 .infcursoAA p:nth-child(4){font-weight: bold;
+  margin-top: 20px;}
+  /*-----------------------------------------------------------------*/
+.gridalunoandamento2 .docAA{display: flex;
+  flex-direction: column;}
+.gridalunoandamento2 .docAA p:nth-child(1){font-weight: bold;
+  text-align: center;
+  font-size: 25px;}
+.gridalunoandamento2 .docAA .alinhar1{margin-top: 40px;
+  margin-left: 50px;
+  display: inline-flex;
+margin-top: 70px;
+}
+.gridalunoandamento2 .docAA button{color: white;
+  display: inline-flex; 
+  width: 150px;
+  height: 28px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.gridalunoandamento2 .docAA button p{
+  font-size: 20px;
+}
+  /*-----------------------------------------------------------------*/
+.gridalunoandamento2 .ocorrenciaAA{display: flex;
+    flex-direction: column;
+  }
+.gridalunoandamento2 .ocorrenciaAA .ocorrencia {margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .gridalunoandamento2 .ocorrenciaAA .alinhar1{
+    display: inline-flex;
+  }
+  .gridalunoandamento2 .ocorrenciaAA button{color: white;
+    display: inline-flex; 
+    width: 150px;
+    height: 28px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .gridalunoandamento2 .ocorrenciaAA .alinhar3{display: flex;
+  flex-direction: column;}
+  .gridalunoandamento2 .ocorrenciaAA .alinhar1 button p{
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .gridalunoandamento2 .ocorrenciaAA .alinhar3 .inline p{margin-left: 20px;}
+.gridalunoandamento2 .ocorrenciaAA .alinhar3 .inline:nth-child(2){margin-top: 10px;
+}
+.gridalunoandamento2 .ocorrenciaAA p{margin:0;
+  margin-top: 65px;}
+  /*-----------------------------------------------------------------*/
+.gridalunoandamento2 .botoesAA .alinharbotoes{margin:0;
+  margin-top: 20px;}
+
+  
+/*-----------------------------------------------------------------*/

@@ -1,0 +1,173 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+nav img {
+  width: 80px;
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 3em;
+  background-color: #2E3E46;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 35% 65%;
+  grid-template-areas: 'area inf' 'andamento andamento';
+}
+
+/* ----------- Referente a area do aluno -------------*/
+.area {
+  grid-area: area;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.area h1 {
+  margin: 50px 0px 20px 50px;
+  color: #2E3E46;
+  font-size: 50px;
+
+
+}
+
+.area p {
+  font-size: 40px;
+  margin: 10px 0px 0px 50px;
+}
+
+/* ----------- fim Referente a area do aluno -------------*/
+
+/* ----------- Referente a informacoes do curso -------------*/
+.inf {
+  grid-area: inf;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.inf p {
+  font-size: 40px;
+  text-align: left;
+  justify-content: center;
+  margin: 0;
+}
+
+/* ----------- fim Referente a informacoes do curso -------------*/
+
+/* ----------- Referente aos processos estagio  -------------*/
+.andamento {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  grid-area: andamento;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+.andamento a{text-decoration: none;}
+.centralizarbotao{width: 100%;
+display: flex;
+justify-content: center;}
+.espacobotao{height: 40px;
+width: 20px;}
+.andamento button{background-color: #2E3E46;
+box-sizing: border-box;
+display: flex;
+padding-left: 10px;
+padding-right: 10px;
+align-items: center;
+color: white;
+font-weight: bold;
+font-size:20px;
+text-align: center;
+width: fit-content;
+cursor: pointer;}
+.andamento p {
+  font-size: 30px;
+  margin: 0;
+}
+
+.quadro {
+  padding-left: 20px;
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+  width: calc(100% - 50px);
+  height: 60%;
+  overflow-y: scroll;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.quadro::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
+.barra{width: 90%;
+height: 1px;
+margin-top: 30px;
+margin-bottom: 10px;
+border-bottom: 2px solid #848484;}
+
+.sol_estagio_ext {
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 10px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.sol_estagio_ext p {
+  margin-bottom: 20px;
+}
+.sol_estagio_int a {
+text-decoration: none;
+}
+
+.sol_estagio_int {
+  border: 1px transparent black;
+  box-shadow: 0px 2px 10px -2px black;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.sol_estagio_int p {
+  color: black;
+  display: inline;
+  margin-top: 40px;
+}
+.sol_estagio_int p:nth-child(2){
+  color: #848484;
+
+}
+
+/* -----------fim  Referente aos processos estagio -------------*/

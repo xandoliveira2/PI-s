@@ -1,0 +1,73 @@
+.primeiro {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.empresa, 
+.aluno, 
+.estagio,
+.seguro,
+.atividades,
+.seletor form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    
+}
+
+
+.empresa input, 
+.aluno input, 
+.estagio input,
+.seguro input,
+.atividades input,
+.seletor input {
+    margin-bottom: 8px;
+    width: 400px;
+}
+
+
+label {
+    margin-bottom: 4px;    
+}
+
+
+textarea {
+    height: 150px;
+    width: 400px;
+}
+
+
+select {
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    width: 400px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.seletor .puxar-dados {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+

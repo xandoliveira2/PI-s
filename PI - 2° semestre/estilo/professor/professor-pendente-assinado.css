@@ -1,0 +1,43 @@
+.documento {
+    background-color: rgb(214, 182, 182);
+    margin: 16px 0;
+    padding: 8px;
+}
+
+.doc p {
+    margin-right: 12px;
+}
+
+.doc {
+    display: flex; 
+}
+
+
+.infos {
+    margin-left: 8px;
+    margin-bottom:16px;
+}
+
+
+select {
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+button, input {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}

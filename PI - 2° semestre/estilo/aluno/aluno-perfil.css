@@ -1,0 +1,78 @@
+.dados-aluno { 
+    margin: 8px; 
+}
+
+
+.dados-aluno p { 
+    font-size: 10pt; 
+}
+
+
+.upload-doc {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    max-width: 350px;
+}
+
+
+.content, .botao, .modal {
+    margin: 16px 0px;
+}
+
+
+.modal label {
+    margin-right: 8px;
+    font-size: 12pt;
+}
+
+
+.modal select {
+    background-color: rgb(77, 15, 15);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.modal button, .modal select {
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+
+
+#selecionar-doc {
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+#enviar-doc {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: rgb(180 50 50);
+    color: white;
+    font-size: 12pt;
+    border: 0;
+    max-width: fit-content;
+    margin: 10px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
